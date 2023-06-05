@@ -13,15 +13,15 @@
     <div class="container">
       <form>
         <h1>Трекер задач</h1>
-        <div class="form-group">
+        <div class="form-group title">
           <label for="title">Название</label>
-          <input type="text" id="title" class="form-control" placeholder="Введите название задачи" aria-describedby="titleHelp">
-          <small id="titleHelp" class="form-text text-muted">Пожалуйста, используйте не более 100 знаков</small>
+          <input type="text" id="title" class="form-control" placeholder="Введите название задачи">
+          <span>Пожалуйста, используйте не менее 5 и не более 100 знаков</span>
         </div>
-        <div class="form-group">
+        <div class="form-group description">
           <label for="description">Описание</label>
-          <textarea type="text" id="description" class="form-control" rows="3" placeholder="Введите описание задачи" aria-describedby="descriptionHelp"></textarea>
-          <small id="descriptionHelp" class="form-text text-muted">Пожалуйста, используйте не более 300 знаков</small>
+          <textarea type="text" id="description" class="form-control" rows="3" placeholder="Введите описание задачи"></textarea>
+          <span>Пожалуйста, используйте не менее 5 и не более 400 знаков</span>
         </div>
         <div>
           <button type="submit" class="btn btn-success">Добавить задачу</button>
