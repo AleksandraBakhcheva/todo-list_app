@@ -1,0 +1,50 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  margin-bottom: 3%;
+}
+
+label {
+  font-size: 20px;
+}
+
+span {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+h2 {
+  margin: 0px;
+  padding: 5px 10px;
+  background-color: #f4ccd0;
+}
+
+ul {
+  min-height: 30px;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #dddddd;
+  list-style: none;
+}
+
+li {
+  margin: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 3px 2px #dddddd;
+  background-color: #ffffff;
+}
+
+li h3 {
+  font-size: 20px;
+}
+
+li h3,
+li div {
+  word-break: break-all;
+}
+
+#finished-todos-list li {
+  background-color: #baefac;
+}
