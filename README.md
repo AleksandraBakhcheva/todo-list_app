@@ -4,7 +4,7 @@ Study application for creating todo-list with drag-and-drop effect 📝
 
 ## Description
 
-<p>This app allows you to create a list of current and completed tasks, the user can drag and drop from active to completed and vice versa.</p>
+<p>This app allows you to create a list of active and completed tasks, the user can drag and drop from active to completed blocks and vice versa.</p>
 
 ## Screens
 
