@@ -1,8 +1,8 @@
 import { autobind } from "../utils/Decorators";
-import { Draggable } from "../utils/Interfaces";
+import { IDraggable } from "../utils/Interfaces";
 import { Todo } from "./Todo";
 
-export class TodoItem implements Draggable {
+export class TodoItem implements IDraggable {
   liElement: HTMLLIElement;
 
   constructor(private todo: Todo, private element: HTMLUListElement) {

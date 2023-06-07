@@ -1,11 +1,11 @@
 import { autobind } from "../utils/Decorators";
-import { DragTarget } from "../utils/Interfaces";
+import { IDragTarget } from "../utils/Interfaces";
 import { Todo } from "./Todo";
 import { TodoItem } from "./TodoItem";
 import { todoState } from "../utils/Other";
 import { TodoStatus } from "../utils/Enums";
 
-export class TodoList implements DragTarget {
+export class TodoList implements IDragTarget {
   assignedTodos: Todo[] = [];
   ulElement: HTMLUListElement;
 

@@ -1,6 +1,6 @@
-import { Validatable } from "./Interfaces";
+import { IValidatable } from "./Interfaces";
 
-export function validate(validatableInput: Validatable): boolean {
+export function validate(validatableInput: IValidatable): boolean {
   let isValid = true;
 
   if (validatableInput.required) {

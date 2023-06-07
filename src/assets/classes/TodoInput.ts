@@ -1,7 +1,7 @@
 import { autobind } from "../utils/Decorators";
 import { todoState } from "../utils/Other";
 import { validate } from "../utils/Functions";
-import { Validatable } from "../utils/Interfaces";
+import { IValidatable } from "../utils/Interfaces";
 
 export class TodoInput {
   formEl: HTMLFormElement;
@@ -49,14 +49,14 @@ export class TodoInput {
     const title = this.titleEl.value;
     const description = this.descriptionEl.value;
 
-    const titleValidatable: Validatable = {
+    const titleValidatable: IValidatable = {
       value: title,
       required: true,
       minLength: 5,
       maxLength: 100,
     };
 
-    const descriptionValidatable: Validatable = {
+    const descriptionValidatable: IValidatable = {
       value: description,
       required: true,
       minLength: 5,
